@@ -14,8 +14,7 @@ a = Analysis(
     ["main.py"],
     pathex=[],
     binaries=[],
-    datas=[("./static", "static")]
-,
+    
     hiddenimports=[
         "uvicorn.logging",
         "uvicorn.loops",
