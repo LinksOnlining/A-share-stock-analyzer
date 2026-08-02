@@ -14,9 +14,8 @@ a = Analysis(
     ["main.py"],
     pathex=[],
     binaries=[],
-    datas=[
-        (static_dir, "static"),  # 将 static/ 目录打包进 _MEIPASS/static
-    ],
+    datas=[("./static", "static")]
+,
     hiddenimports=[
         "uvicorn.logging",
         "uvicorn.loops",
