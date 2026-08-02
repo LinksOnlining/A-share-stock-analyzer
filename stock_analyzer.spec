@@ -12,6 +12,7 @@ static_dir = os.path.join(os.path.dirname(os.path.abspath(SPEC)), "static")
 
 a = Analysis(
     ["main.py"],
+    datas=[("static","static"),(".env",".env")],
     pathex=[],
     binaries=[],
     
