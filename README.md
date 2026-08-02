@@ -12,7 +12,7 @@
 ## 📜 更新日志（Changelog）
 
 ### v5.0.0（2026-08-02）
-- 🎯 **支持 PyInstaller 打包 exe**：单文件 exe + 控制台窗口 + 自动打开浏览器
+- 🎯 **支持 PyInstaller 打包 exe**：单文件 exe + 控制台窗口 + 自动打开浏览器 
 - 📦 **新增 GitHub Actions 自动构建**：推送 git tag 即云端打包 exe 并发布到 Releases
 - 🔧 打包兼容：缓存目录、`.env` 重定向到 exe 同级目录（单文件模式不丢数据）
 - 🔧 打包后禁用 uvicorn reload（源码模式才需要）
