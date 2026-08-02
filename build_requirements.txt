@@ -1,0 +1,7 @@
+# 打包依赖（仅打包exe时使用，GitHub Actions 和 build_exe.bat 会自动安装）
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+httpx==0.27.2
+python-dotenv==1.0.1
+pydantic==2.9.2
+pyinstaller==6.11.0
